@@ -1,0 +1,17 @@
+.text-style {
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.bg-hover-effect {
+    cursor: pointer;
+    background-Size: cover;
+    background-Position: center;
+    height: 250px;
+    transition: background-size 0.5s ease;
+    /* Smooth transition */
+}
+
+.bg-hover-effect:hover {
+    background-size: 110%;
+    /* Slightly zoom in on hover */
+}

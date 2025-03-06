@@ -1,0 +1,5 @@
+.review-border{
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 10px;
+    background-Color: rgba(146, 146, 146, 0.6);
+}

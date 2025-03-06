@@ -1,0 +1,87 @@
+
+
+.custom-height {
+    height: 87vh; 
+    object-fit: cover; 
+ 
+}
+.next{
+    height:50px;
+    width:100px;
+    font-size:20px;
+    border-radius: 10px;
+}
+.leader p{
+    font-size:20px;
+    font-weight:bold;
+
+}
+.leader{
+    margin-bottom: 125px;
+
+}
+.navbar.bg-transparent {
+    
+    position: absolute;
+    width: 100%;
+}
+.nav-item{
+    font-weight:500;
+}
+
+.navbar-toggler-icon {
+    background-image: url('/images/hamburger.png'); /* Replace with your image path */
+    background-size: cover;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+}
+
+/* Ensure nav-item does not change color on click or focus */
+.navbar .nav-item .nav-link {
+    color: white !important;  /* Keep the text white */
+    transition: none !important; /* Prevent any transition effect */
+}
+
+/* Prevent color change when dropdown is clicked */
+.navbar .nav-item .nav-link:focus,
+.navbar .nav-item .nav-link:active,
+.navbar .nav-item .nav-link.show {
+    color: white !important;  
+    background-color: transparent !important;
+}
+
+/* Fix dropdown menu item behavior */
+.navbar .dropdown-menu .dropdown-item:focus, 
+.navbar .dropdown-menu .dropdown-item:active {
+    background-color: transparent !important;
+    color: inherit !important;
+}
+
+/* Optional: Keep the hover effect consistent */
+.navbar .nav-item .nav-link:hover {
+    color: red !important; /* Change this to any hover color you want */
+}
+
+.dropdown-item:hover{
+    color: red;
+}
+
+
+/* navbar responsive */
+@media (max-width: 320px) {
+    .navbar-brand img {
+        width: 30px !important; /* Smaller logo */
+        height: 30px !important;
+    }
+    .navbar-brand span {
+        font-size: 20px !important; /* Smaller text */
+    }
+    .navbar-toggler-icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+
